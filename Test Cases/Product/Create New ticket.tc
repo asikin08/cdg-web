@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New ticket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e71312d-44de-4462-8c7e-14eae2182774</testCaseGuid>
+   <variable>
+      <defaultValue>'cdgcustomer1@gmail.com'</defaultValue>
+      <description></description>
+      <id>471ce869-32f7-46ed-9303-fa400e483ce4</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description></description>
+      <id>f56e0e36-9ea6-4d44-871c-8c426a4505ae</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

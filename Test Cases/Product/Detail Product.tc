@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Detail Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b848dbb8-a0eb-445c-8bac-8a7798057424</testCaseGuid>
+   <variable>
+      <defaultValue>'cdgcustomer1@gmail.com'</defaultValue>
+      <description></description>
+      <id>6365e930-1bd0-4cce-9f7c-6bbec6e9cfd9</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description></description>
+      <id>eda79ebc-8737-495b-8f4e-bd17d1645589</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2019-03-05 13:36:35,2019-03-05 13:36:57,21.897s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_valid,,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",2019-03-05 13:36:37,2019-03-05 13:36:54,16.411s,FAILED
+"comment(""Customer Login with valid account"")",,,2019-03-05 13:36:41,2019-03-05 13:36:41,0.495s,PASSED
+"openBrowser("""")",,,2019-03-05 13:36:41,2019-03-05 13:36:54,12.169s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.202s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_valid,,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",2019-03-05 13:36:54,2019-03-05 13:36:54,0.207s,FAILED
+"comment(""Customer Login with valid account"")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.000s,PASSED
+"openBrowser("""")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.156s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.035s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_valid,,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",2019-03-05 13:36:54,2019-03-05 13:36:54,0.189s,FAILED
+"comment(""Customer Login with valid account"")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.000s,PASSED
+"openBrowser("""")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.154s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.035s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_NonValid,,,2019-03-05 13:36:54,2019-03-05 13:36:55,0.371s,FAILED
+"comment(""Customer Login with non valid account"")",,,2019-03-05 13:36:54,2019-03-05 13:36:54,0.001s,PASSED
+"openBrowser("""")",,,2019-03-05 13:36:54,2019-03-05 13:36:55,0.163s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-03-05 13:36:55,2019-03-05 13:36:55,0.046s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_NonValid,,,2019-03-05 13:36:55,2019-03-05 13:36:55,0.176s,FAILED
+"comment(""Customer Login with non valid account"")",,,2019-03-05 13:36:55,2019-03-05 13:36:55,0.000s,PASSED
+"openBrowser("""")",,,2019-03-05 13:36:55,2019-03-05 13:36:55,0.144s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-03-05 13:36:55,2019-03-05 13:36:55,0.017s,FAILED

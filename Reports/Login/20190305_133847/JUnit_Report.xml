@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="426" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="426" timestamp="2019-03-05 13:38:50" hostname="hrmlabs - GIV" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kris\\Katalon Studio\\Cdg\\Reports\\Login\\20190305_133847"/>
+         <property name="logFiles" value="C:\\Users\\kris\\Katalon Studio\\Cdg\\Reports\\Login\\20190305_133847\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hrmlabs - GIV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="0aadaa687ef92186f616f20750bf70ee"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Test Cases/Login_valid" classname="Test Cases/Common Test Cases/Login_valid" status="PASSED">
+         <system-out><![CDATA[2019-03-05 13:38:50 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login_valid: Test Cases/Common Test Cases/Login_valid
+
+2019-03-05 13:38:51 - [TEST_STEP][PASSED] - comment("Customer Login with valid account"): Customer Login with valid account
+
+2019-03-05 13:38:51 - [MESSAGE][INFO] - Customer Login with valid account
+
+2019-03-05 13:38:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 13:38:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 13:38:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-05 13:39:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 13:39:08 - [TEST_STEP][PASSED] - navigateToUrl("https://testing.adeptforms.com/module/cdg/customer/session/login"): Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:39:19 - [MESSAGE][PASSED] - Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:39:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:39:20 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify Login: Test Cases/Main Test Cases/Verify Login
+
+2019-03-05 13:39:20 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(true, []): All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:39:23 - [MESSAGE][PASSED] - Found 45 unique links on the page https://testing.adeptforms.com/module/cdg/customer/session/login
+
+2019-03-05 13:40:01 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\0.har
+
+2019-03-05 13:40:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:01 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\1.har
+
+2019-03-05 13:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:02 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\2.har
+
+2019-03-05 13:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:02 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\3.har
+
+2019-03-05 13:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\4.har
+
+2019-03-05 13:40:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\5.har
+
+2019-03-05 13:40:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\6.har
+
+2019-03-05 13:40:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\7.har
+
+2019-03-05 13:40:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:05 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\8.har
+
+2019-03-05 13:40:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\9.har
+
+2019-03-05 13:40:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\10.har
+
+2019-03-05 13:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\11.har
+
+2019-03-05 13:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\12.har
+
+2019-03-05 13:40:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\13.har
+
+2019-03-05 13:40:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\14.har
+
+2019-03-05 13:40:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\15.har
+
+2019-03-05 13:40:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\16.har
+
+2019-03-05 13:40:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\17.har
+
+2019-03-05 13:40:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\18.har
+
+2019-03-05 13:40:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\19.har
+
+2019-03-05 13:40:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\20.har
+
+2019-03-05 13:40:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\21.har
+
+2019-03-05 13:40:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\22.har
+
+2019-03-05 13:40:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\23.har
+
+2019-03-05 13:40:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\24.har
+
+2019-03-05 13:40:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\25.har
+
+2019-03-05 13:40:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\26.har
+
+2019-03-05 13:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\27.har
+
+2019-03-05 13:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\28.har
+
+2019-03-05 13:40:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:16 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\29.har
+
+2019-03-05 13:40:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:16 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\30.har
+
+2019-03-05 13:40:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\31.har
+
+2019-03-05 13:40:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\32.har
+
+2019-03-05 13:40:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\33.har
+
+2019-03-05 13:40:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:18 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\34.har
+
+2019-03-05 13:40:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:19 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\35.har
+
+2019-03-05 13:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:19 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\36.har
+
+2019-03-05 13:40:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\37.har
+
+2019-03-05 13:40:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\38.har
+
+2019-03-05 13:40:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\39.har
+
+2019-03-05 13:40:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:21 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\40.har
+
+2019-03-05 13:40:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:22 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\41.har
+
+2019-03-05 13:40:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:22 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\42.har
+
+2019-03-05 13:40:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:23 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\43.har
+
+2019-03-05 13:40:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:23 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\44.har
+
+2019-03-05 13:40:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:40:23 - [MESSAGE][PASSED] - All links are accessible
+
+2019-03-05 13:40:23 - [MESSAGE][PASSED] - All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:40:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/img"), 6): Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:40:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/Ver_Loginpage"), 6): Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:40:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:40:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Input_Email"), 6): Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/input_Password"), 6): Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Signin_Text_Verify"), 6): Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Register_Text"), 6): Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:40:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Forgot_Password_Text"), 6): Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:40:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/button_Login"), 6): Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:40:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/Input_Email"), findTestData("Login_Field").getValue(1, 1)): Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:40:32 - [MESSAGE][PASSED] - Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/input_Password"), findTestData("Login_Field").getValue(2, 1)): Text '12345' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:40:32 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/button_Login")): Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:40:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/TC1_Verify Successful Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' successfully
+
+2019-03-05 13:40:33 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2019-03-05 13:40:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/SECTION_PRODUCT_PAGE")): Object 'Object Repository/Page_CDG/SECTION_PRODUCT_PAGE' is visible
+
+2019-03-05 13:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/SECTION_PRODUCT_PAGE' is visible
+
+2019-03-05 13:40:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Content_Product List")): Object 'Object Repository/Page_CDG/Content_Product List' is visible
+
+2019-03-05 13:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Content_Product List' is visible
+
+2019-03-05 13:40:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Verify_Addproduct_Text")): Object 'Object Repository/Page_CDG/Verify_Addproduct_Text' is visible
+
+2019-03-05 13:40:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Verify_Addproduct_Text' is visible
+
+2019-03-05 13:40:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Close_Add_Product")): Object 'Object Repository/Page_CDG/Close_Add_Product' is visible
+
+2019-03-05 13:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Close_Add_Product' is visible
+
+2019-03-05 13:40:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CDG/Privacy_Policy"), 6): Scroll to object 'Object Repository/Page_CDG/Privacy_Policy' successfully
+
+2019-03-05 13:40:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CDG/Privacy_Policy' successfully
+
+2019-03-05 13:40:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Copyright")): Object 'Object Repository/Page_CDG/Copyright' is visible
+
+2019-03-05 13:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Copyright' is visible
+
+2019-03-05 13:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/Privacy_Policy")): Object: 'Object Repository/Page_CDG/Privacy_Policy' is clicked on
+
+2019-03-05 13:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/Privacy_Policy' is clicked on
+
+2019-03-05 13:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/Terms_of_Use")): Object: 'Object Repository/Page_CDG/Terms_of_Use' is clicked on
+
+2019-03-05 13:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/Terms_of_Use' is clicked on
+
+2019-03-05 13:40:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' successfully
+
+2019-03-05 13:40:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-05 13:40:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test Cases/Login_valid" classname="Test Cases/Common Test Cases/Login_valid" status="PASSED">
+         <system-out><![CDATA[2019-03-05 13:40:50 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login_valid: Test Cases/Common Test Cases/Login_valid
+
+2019-03-05 13:40:50 - [TEST_STEP][PASSED] - comment("Customer Login with valid account"): Customer Login with valid account
+
+2019-03-05 13:40:50 - [MESSAGE][INFO] - Customer Login with valid account
+
+2019-03-05 13:40:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 13:40:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 13:41:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 13:41:01 - [TEST_STEP][PASSED] - navigateToUrl("https://testing.adeptforms.com/module/cdg/customer/session/login"): Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:41:06 - [MESSAGE][PASSED] - Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:41:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:41:06 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify Login: Test Cases/Main Test Cases/Verify Login
+
+2019-03-05 13:41:06 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(true, []): All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:41:06 - [MESSAGE][PASSED] - Found 45 unique links on the page https://testing.adeptforms.com/module/cdg/customer/session/login
+
+2019-03-05 13:41:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\45.har
+
+2019-03-05 13:41:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\46.har
+
+2019-03-05 13:41:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\47.har
+
+2019-03-05 13:41:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\48.har
+
+2019-03-05 13:41:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\49.har
+
+2019-03-05 13:41:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\50.har
+
+2019-03-05 13:41:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\51.har
+
+2019-03-05 13:41:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\52.har
+
+2019-03-05 13:41:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\53.har
+
+2019-03-05 13:41:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\54.har
+
+2019-03-05 13:41:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\55.har
+
+2019-03-05 13:41:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\56.har
+
+2019-03-05 13:41:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\57.har
+
+2019-03-05 13:41:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\58.har
+
+2019-03-05 13:41:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\59.har
+
+2019-03-05 13:41:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:16 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\60.har
+
+2019-03-05 13:41:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:16 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\61.har
+
+2019-03-05 13:41:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\62.har
+
+2019-03-05 13:41:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\63.har
+
+2019-03-05 13:41:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\64.har
+
+2019-03-05 13:41:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\65.har
+
+2019-03-05 13:41:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:18 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\66.har
+
+2019-03-05 13:41:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:18 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\67.har
+
+2019-03-05 13:41:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:18 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\68.har
+
+2019-03-05 13:41:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:19 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\69.har
+
+2019-03-05 13:41:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:19 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\70.har
+
+2019-03-05 13:41:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:19 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\71.har
+
+2019-03-05 13:41:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\72.har
+
+2019-03-05 13:41:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\73.har
+
+2019-03-05 13:41:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:21 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\74.har
+
+2019-03-05 13:41:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:21 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\75.har
+
+2019-03-05 13:41:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:22 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\76.har
+
+2019-03-05 13:41:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:23 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\77.har
+
+2019-03-05 13:41:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:23 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\78.har
+
+2019-03-05 13:41:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:25 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\79.har
+
+2019-03-05 13:41:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:26 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\80.har
+
+2019-03-05 13:41:26 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:27 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\81.har
+
+2019-03-05 13:41:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:27 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\82.har
+
+2019-03-05 13:41:28 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:28 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\83.har
+
+2019-03-05 13:41:28 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:29 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\84.har
+
+2019-03-05 13:41:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:30 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\85.har
+
+2019-03-05 13:41:30 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:31 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\86.har
+
+2019-03-05 13:41:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:31 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\87.har
+
+2019-03-05 13:41:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:31 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\88.har
+
+2019-03-05 13:41:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:31 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\89.har
+
+2019-03-05 13:41:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:41:31 - [MESSAGE][PASSED] - All links are accessible
+
+2019-03-05 13:41:31 - [MESSAGE][PASSED] - All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:41:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/img"), 6): Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:41:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/Ver_Loginpage"), 6): Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:41:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:41:38 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:41:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Input_Email"), 6): Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:41:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/input_Password"), 6): Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:41:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Signin_Text_Verify"), 6): Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:41:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Register_Text"), 6): Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:41:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Forgot_Password_Text"), 6): Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:41:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/button_Login"), 6): Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:41:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/Input_Email"), findTestData("Login_Field").getValue(1, 1)): Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:41:41 - [MESSAGE][PASSED] - Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:41:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/input_Password"), findTestData("Login_Field").getValue(2, 1)): Text '12345' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:41:41 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/button_Login")): Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:41:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/TC1_Verify Successful Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' successfully
+
+2019-03-05 13:41:43 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2019-03-05 13:41:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/SECTION_PRODUCT_PAGE")): Object 'Object Repository/Page_CDG/SECTION_PRODUCT_PAGE' is visible
+
+2019-03-05 13:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/SECTION_PRODUCT_PAGE' is visible
+
+2019-03-05 13:41:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Content_Product List")): Object 'Object Repository/Page_CDG/Content_Product List' is visible
+
+2019-03-05 13:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Content_Product List' is visible
+
+2019-03-05 13:41:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Verify_Addproduct_Text")): Object 'Object Repository/Page_CDG/Verify_Addproduct_Text' is visible
+
+2019-03-05 13:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Verify_Addproduct_Text' is visible
+
+2019-03-05 13:41:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Close_Add_Product")): Object 'Object Repository/Page_CDG/Close_Add_Product' is visible
+
+2019-03-05 13:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Close_Add_Product' is visible
+
+2019-03-05 13:41:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CDG/Privacy_Policy"), 6): Scroll to object 'Object Repository/Page_CDG/Privacy_Policy' successfully
+
+2019-03-05 13:41:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CDG/Privacy_Policy' successfully
+
+2019-03-05 13:41:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Copyright")): Object 'Object Repository/Page_CDG/Copyright' is visible
+
+2019-03-05 13:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Copyright' is visible
+
+2019-03-05 13:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/Privacy_Policy")): Object: 'Object Repository/Page_CDG/Privacy_Policy' is clicked on
+
+2019-03-05 13:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/Privacy_Policy' is clicked on
+
+2019-03-05 13:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/Terms_of_Use")): Object: 'Object Repository/Page_CDG/Terms_of_Use' is clicked on
+
+2019-03-05 13:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/Terms_of_Use' is clicked on
+
+2019-03-05 13:41:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' successfully
+
+2019-03-05 13:41:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-05 13:41:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test Cases/Login_valid" classname="Test Cases/Common Test Cases/Login_valid" status="PASSED">
+         <system-out><![CDATA[2019-03-05 13:41:57 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login_valid: Test Cases/Common Test Cases/Login_valid
+
+2019-03-05 13:41:57 - [TEST_STEP][PASSED] - comment("Customer Login with valid account"): Customer Login with valid account
+
+2019-03-05 13:41:57 - [MESSAGE][INFO] - Customer Login with valid account
+
+2019-03-05 13:41:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 13:41:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 13:42:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 13:42:08 - [TEST_STEP][PASSED] - navigateToUrl("https://testing.adeptforms.com/module/cdg/customer/session/login"): Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:42:53 - [MESSAGE][PASSED] - Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:42:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:42:53 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify Login: Test Cases/Main Test Cases/Verify Login
+
+2019-03-05 13:42:53 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(true, []): All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:42:54 - [MESSAGE][PASSED] - Found 45 unique links on the page https://testing.adeptforms.com/module/cdg/customer/session/login
+
+2019-03-05 13:42:55 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\90.har
+
+2019-03-05 13:42:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:55 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\91.har
+
+2019-03-05 13:42:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:56 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\92.har
+
+2019-03-05 13:42:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:56 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\93.har
+
+2019-03-05 13:42:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:57 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\94.har
+
+2019-03-05 13:42:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:58 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\95.har
+
+2019-03-05 13:42:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:58 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\96.har
+
+2019-03-05 13:42:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:58 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\97.har
+
+2019-03-05 13:42:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:59 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\98.har
+
+2019-03-05 13:42:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:59 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\99.har
+
+2019-03-05 13:42:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:42:59 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\100.har
+
+2019-03-05 13:42:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:00 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\101.har
+
+2019-03-05 13:43:00 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:00 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\102.har
+
+2019-03-05 13:43:00 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:00 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\103.har
+
+2019-03-05 13:43:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:01 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\104.har
+
+2019-03-05 13:43:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:01 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\105.har
+
+2019-03-05 13:43:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:01 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\106.har
+
+2019-03-05 13:43:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:02 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\107.har
+
+2019-03-05 13:43:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:02 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\108.har
+
+2019-03-05 13:43:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:02 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\109.har
+
+2019-03-05 13:43:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\110.har
+
+2019-03-05 13:43:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\111.har
+
+2019-03-05 13:43:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\112.har
+
+2019-03-05 13:43:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\113.har
+
+2019-03-05 13:43:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\114.har
+
+2019-03-05 13:43:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\115.har
+
+2019-03-05 13:43:05 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:05 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\116.har
+
+2019-03-05 13:43:05 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:05 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\117.har
+
+2019-03-05 13:43:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:06 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\118.har
+
+2019-03-05 13:43:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:06 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\119.har
+
+2019-03-05 13:43:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\120.har
+
+2019-03-05 13:43:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\121.har
+
+2019-03-05 13:43:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\122.har
+
+2019-03-05 13:43:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\123.har
+
+2019-03-05 13:43:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\124.har
+
+2019-03-05 13:43:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\125.har
+
+2019-03-05 13:43:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\126.har
+
+2019-03-05 13:43:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\127.har
+
+2019-03-05 13:43:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\128.har
+
+2019-03-05 13:43:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\129.har
+
+2019-03-05 13:43:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\130.har
+
+2019-03-05 13:43:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\131.har
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\132.har
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\133.har
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\134.har
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - All links are accessible
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:43:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/img"), 6): Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:43:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:43:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/Ver_Loginpage"), 6): Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:43:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:43:22 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Input_Email"), 6): Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/input_Password"), 6): Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Signin_Text_Verify"), 6): Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Register_Text"), 6): Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Forgot_Password_Text"), 6): Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/button_Login"), 6): Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:43:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:43:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/Input_Email"), findTestData("Login_Field").getValue(1, 1)): Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:43:23 - [MESSAGE][PASSED] - Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/input_Password"), findTestData("Login_Field").getValue(2, 1)): Text '12345' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:43:24 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:43:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/button_Login")): Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:43:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/TC1_Verify Successful Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' successfully
+
+2019-03-05 13:43:24 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2019-03-05 13:43:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/SECTION_PRODUCT_PAGE")): Object 'Object Repository/Page_CDG/SECTION_PRODUCT_PAGE' is visible
+
+2019-03-05 13:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/SECTION_PRODUCT_PAGE' is visible
+
+2019-03-05 13:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Content_Product List")): Object 'Object Repository/Page_CDG/Content_Product List' is visible
+
+2019-03-05 13:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Content_Product List' is visible
+
+2019-03-05 13:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Verify_Addproduct_Text")): Object 'Object Repository/Page_CDG/Verify_Addproduct_Text' is visible
+
+2019-03-05 13:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Verify_Addproduct_Text' is visible
+
+2019-03-05 13:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Close_Add_Product")): Object 'Object Repository/Page_CDG/Close_Add_Product' is visible
+
+2019-03-05 13:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Close_Add_Product' is visible
+
+2019-03-05 13:43:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_CDG/Privacy_Policy"), 6): Scroll to object 'Object Repository/Page_CDG/Privacy_Policy' successfully
+
+2019-03-05 13:43:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_CDG/Privacy_Policy' successfully
+
+2019-03-05 13:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CDG/Copyright")): Object 'Object Repository/Page_CDG/Copyright' is visible
+
+2019-03-05 13:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Copyright' is visible
+
+2019-03-05 13:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/Privacy_Policy")): Object: 'Object Repository/Page_CDG/Privacy_Policy' is clicked on
+
+2019-03-05 13:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/Privacy_Policy' is clicked on
+
+2019-03-05 13:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/Terms_of_Use")): Object: 'Object Repository/Page_CDG/Terms_of_Use' is clicked on
+
+2019-03-05 13:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/Terms_of_Use' is clicked on
+
+2019-03-05 13:43:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' successfully
+
+2019-03-05 13:43:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-05 13:43:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test Cases/Login_NonValid" classname="Test Cases/Common Test Cases/Login_NonValid" status="PASSED">
+         <system-out><![CDATA[2019-03-05 13:43:29 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login_NonValid: Test Cases/Common Test Cases/Login_NonValid
+
+2019-03-05 13:43:29 - [TEST_STEP][PASSED] - comment("Customer Login with non valid account"): Customer Login with non valid account
+
+2019-03-05 13:43:29 - [MESSAGE][INFO] - Customer Login with non valid account
+
+2019-03-05 13:43:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 13:43:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 13:43:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 13:43:38 - [TEST_STEP][PASSED] - navigateToUrl("https://testing.adeptforms.com/module/cdg/customer/session/login"): Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:43:41 - [MESSAGE][PASSED] - Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:43:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:43:41 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify Login: Test Cases/Main Test Cases/Verify Login
+
+2019-03-05 13:43:41 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(true, []): All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:43:42 - [MESSAGE][PASSED] - Found 45 unique links on the page https://testing.adeptforms.com/module/cdg/customer/session/login
+
+2019-03-05 13:43:43 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\135.har
+
+2019-03-05 13:43:43 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:43 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\136.har
+
+2019-03-05 13:43:43 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:43 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\137.har
+
+2019-03-05 13:43:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:44 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\138.har
+
+2019-03-05 13:43:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:44 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\139.har
+
+2019-03-05 13:43:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:45 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\140.har
+
+2019-03-05 13:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:45 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\141.har
+
+2019-03-05 13:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:46 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\142.har
+
+2019-03-05 13:43:46 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:46 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\143.har
+
+2019-03-05 13:43:46 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:47 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\144.har
+
+2019-03-05 13:43:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:47 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\145.har
+
+2019-03-05 13:43:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:48 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\146.har
+
+2019-03-05 13:43:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:48 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\147.har
+
+2019-03-05 13:43:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:48 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\148.har
+
+2019-03-05 13:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:49 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\149.har
+
+2019-03-05 13:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:49 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\150.har
+
+2019-03-05 13:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:49 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\151.har
+
+2019-03-05 13:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:50 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\152.har
+
+2019-03-05 13:43:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:50 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\153.har
+
+2019-03-05 13:43:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:50 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\154.har
+
+2019-03-05 13:43:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:51 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\155.har
+
+2019-03-05 13:43:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:51 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\156.har
+
+2019-03-05 13:43:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:52 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\157.har
+
+2019-03-05 13:43:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:52 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\158.har
+
+2019-03-05 13:43:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:52 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\159.har
+
+2019-03-05 13:43:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:53 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\160.har
+
+2019-03-05 13:43:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:53 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\161.har
+
+2019-03-05 13:43:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:53 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\162.har
+
+2019-03-05 13:43:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:53 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\163.har
+
+2019-03-05 13:43:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:54 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\164.har
+
+2019-03-05 13:43:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:54 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\165.har
+
+2019-03-05 13:43:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:55 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\166.har
+
+2019-03-05 13:43:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:55 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\167.har
+
+2019-03-05 13:43:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:56 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\168.har
+
+2019-03-05 13:43:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:58 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\169.har
+
+2019-03-05 13:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:58 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\170.har
+
+2019-03-05 13:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:59 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\171.har
+
+2019-03-05 13:43:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:43:59 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\172.har
+
+2019-03-05 13:43:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:00 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\173.har
+
+2019-03-05 13:44:00 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:01 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\174.har
+
+2019-03-05 13:44:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:02 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\175.har
+
+2019-03-05 13:44:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\176.har
+
+2019-03-05 13:44:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\177.har
+
+2019-03-05 13:44:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\178.har
+
+2019-03-05 13:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\179.har
+
+2019-03-05 13:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:44:04 - [MESSAGE][PASSED] - All links are accessible
+
+2019-03-05 13:44:04 - [MESSAGE][PASSED] - All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:44:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/img"), 6): Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:44:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/Ver_Loginpage"), 6): Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:44:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:44:10 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:44:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Input_Email"), 6): Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:44:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/input_Password"), 6): Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:44:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Signin_Text_Verify"), 6): Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:44:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Register_Text"), 6): Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:44:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Forgot_Password_Text"), 6): Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:44:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/button_Login"), 6): Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:44:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:44:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/Input_Email"), findTestData("Login_Failed").getValue(1, 1)): Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:44:15 - [MESSAGE][PASSED] - Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:44:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/input_Password"), findTestData("Login_Failed").getValue(2, 1)): Text '123452133' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:44:16 - [MESSAGE][PASSED] - Text '123452133' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:44:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/button_Login")): Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:44:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify_Failed_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify_Failed_Login' successfully
+
+2019-03-05 13:44:16 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify_Failed_Login: Test Cases/Main Test Cases/Verify_Failed_Login
+
+2019-03-05 13:44:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/Page_CDG/div_WarningWrong password"), 6): Web element with id: 'Object Repository/Page_Login/Page_CDG/div_WarningWrong password' located by 'By.xpath: V' not found
+
+2019-03-05 13:44:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: V'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:44:23 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Login/Page_CDG/div_WarningWrong password' located by 'By.xpath: V' not found
+
+2019-03-05 13:44:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/Page_CDG/span_Register_brighttheme-icon"), 6): Web element with id: 'Object Repository/Page_Login/Page_CDG/span_Register_brighttheme-icon' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div/span' not found
+
+2019-03-05 13:44:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='cdg']/div[4]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:44:29 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Login/Page_CDG/span_Register_brighttheme-icon' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div/span' not found
+
+2019-03-05 13:44:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/Page_CDG/div_Wrong password"), 6): Web element with id: 'Object Repository/Page_Login/Page_CDG/div_Wrong password' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div[4]' not found
+
+2019-03-05 13:44:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='cdg']/div[4]/div/div[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:44:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Login/Page_CDG/div_Wrong password' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div[4]' not found
+
+2019-03-05 13:44:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify_Failed_Login' successfully
+
+2019-03-05 13:44:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-05 13:44:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Test Cases/Login_NonValid" classname="Test Cases/Common Test Cases/Login_NonValid" status="PASSED">
+         <system-out><![CDATA[2019-03-05 13:44:37 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login_NonValid: Test Cases/Common Test Cases/Login_NonValid
+
+2019-03-05 13:44:37 - [TEST_STEP][PASSED] - comment("Customer Login with non valid account"): Customer Login with non valid account
+
+2019-03-05 13:44:37 - [MESSAGE][INFO] - Customer Login with non valid account
+
+2019-03-05 13:44:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 13:44:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 13:44:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 13:44:45 - [TEST_STEP][PASSED] - navigateToUrl("https://testing.adeptforms.com/module/cdg/customer/session/login"): Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:45:02 - [MESSAGE][PASSED] - Navigate to 'https://testing.adeptforms.com/module/cdg/customer/session/login' successfully
+
+2019-03-05 13:45:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:45:02 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify Login: Test Cases/Main Test Cases/Verify Login
+
+2019-03-05 13:45:02 - [TEST_STEP][PASSED] - verifyAllLinksOnCurrentPageAccessible(true, []): All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:45:03 - [MESSAGE][PASSED] - Found 45 unique links on the page https://testing.adeptforms.com/module/cdg/customer/session/login
+
+2019-03-05 13:45:03 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\180.har
+
+2019-03-05 13:45:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\181.har
+
+2019-03-05 13:45:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:04 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\182.har
+
+2019-03-05 13:45:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:05 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\183.har
+
+2019-03-05 13:45:05 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:05 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\184.har
+
+2019-03-05 13:45:05 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:06 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\185.har
+
+2019-03-05 13:45:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\186.har
+
+2019-03-05 13:45:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\187.har
+
+2019-03-05 13:45:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:07 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\188.har
+
+2019-03-05 13:45:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\189.har
+
+2019-03-05 13:45:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:08 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\190.har
+
+2019-03-05 13:45:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\191.har
+
+2019-03-05 13:45:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\192.har
+
+2019-03-05 13:45:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:09 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\193.har
+
+2019-03-05 13:45:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\194.har
+
+2019-03-05 13:45:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\195.har
+
+2019-03-05 13:45:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\196.har
+
+2019-03-05 13:45:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\197.har
+
+2019-03-05 13:45:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:10 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\198.har
+
+2019-03-05 13:45:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\199.har
+
+2019-03-05 13:45:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\200.har
+
+2019-03-05 13:45:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:11 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\201.har
+
+2019-03-05 13:45:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\202.har
+
+2019-03-05 13:45:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\203.har
+
+2019-03-05 13:45:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:12 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\204.har
+
+2019-03-05 13:45:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\205.har
+
+2019-03-05 13:45:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:13 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\206.har
+
+2019-03-05 13:45:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\207.har
+
+2019-03-05 13:45:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:14 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\208.har
+
+2019-03-05 13:45:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\209.har
+
+2019-03-05 13:45:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:15 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\210.har
+
+2019-03-05 13:45:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:16 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\211.har
+
+2019-03-05 13:45:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\212.har
+
+2019-03-05 13:45:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:17 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\213.har
+
+2019-03-05 13:45:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:18 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\214.har
+
+2019-03-05 13:45:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:19 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\215.har
+
+2019-03-05 13:45:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\216.har
+
+2019-03-05 13:45:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\217.har
+
+2019-03-05 13:45:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:20 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\218.har
+
+2019-03-05 13:45:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:21 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\219.har
+
+2019-03-05 13:45:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:21 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\220.har
+
+2019-03-05 13:45:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:22 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\221.har
+
+2019-03-05 13:45:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:23 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\222.har
+
+2019-03-05 13:45:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:24 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\223.har
+
+2019-03-05 13:45:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:24 - [MESSAGE][INFO] - HAR: C:\Users\kris\Katalon Studio\Cdg\Reports\Login\20190305_133847\requests\main\224.har
+
+2019-03-05 13:45:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 13:45:24 - [MESSAGE][PASSED] - All links are accessible
+
+2019-03-05 13:45:24 - [MESSAGE][PASSED] - All links on the page 'https://testing.adeptforms.com/module/cdg/customer/session/login' are accessible
+
+2019-03-05 13:45:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/img"), 6): Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:45:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/img' is visible
+
+2019-03-05 13:45:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/Ver_Loginpage"), 6): Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:45:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:45:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CDG/Ver_Loginpage' located by 'By.xpath: ' not found
+
+2019-03-05 13:45:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Input_Email"), 6): Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:45:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Input_Email' is visible
+
+2019-03-05 13:45:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/input_Password"), 6): Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:45:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/input_Password' is visible
+
+2019-03-05 13:45:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Signin_Text_Verify"), 6): Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:45:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Signin_Text_Verify' is visible
+
+2019-03-05 13:45:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Register_Text"), 6): Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:45:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Register_Text' is visible
+
+2019-03-05 13:45:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CDG/Forgot_Password_Text"), 6): Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:45:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/Forgot_Password_Text' is visible
+
+2019-03-05 13:45:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_CDG/button_Login"), 6): Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CDG/button_Login' is visible
+
+2019-03-05 13:45:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify Login' successfully
+
+2019-03-05 13:45:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/Input_Email"), findTestData("Login_Failed").getValue(1, 1)): Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:45:35 - [MESSAGE][PASSED] - Text 'asikinaul@gmail.com' is set on object 'Object Repository/Page_CDG/Input_Email'
+
+2019-03-05 13:45:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CDG/input_Password"), findTestData("Login_Failed").getValue(2, 1)): Text '123452133' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:45:35 - [MESSAGE][PASSED] - Text '123452133' is set on object 'Object Repository/Page_CDG/input_Password'
+
+2019-03-05 13:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_CDG/button_Login")): Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CDG/button_Login' is clicked on
+
+2019-03-05 13:45:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Test Cases/Verify_Failed_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Verify_Failed_Login' successfully
+
+2019-03-05 13:45:36 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Verify_Failed_Login: Test Cases/Main Test Cases/Verify_Failed_Login
+
+2019-03-05 13:45:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/Page_CDG/div_WarningWrong password"), 6): Web element with id: 'Object Repository/Page_Login/Page_CDG/div_WarningWrong password' located by 'By.xpath: V' not found
+
+2019-03-05 13:45:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: V'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:45:42 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Login/Page_CDG/div_WarningWrong password' located by 'By.xpath: V' not found
+
+2019-03-05 13:45:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/Page_CDG/span_Register_brighttheme-icon"), 6): Web element with id: 'Object Repository/Page_Login/Page_CDG/span_Register_brighttheme-icon' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div/span' not found
+
+2019-03-05 13:45:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='cdg']/div[4]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:45:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Login/Page_CDG/span_Register_brighttheme-icon' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div/span' not found
+
+2019-03-05 13:45:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login/Page_CDG/div_Wrong password"), 6): Web element with id: 'Object Repository/Page_Login/Page_CDG/div_Wrong password' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div[4]' not found
+
+2019-03-05 13:45:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='cdg']/div[4]/div/div[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-05 13:45:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Login/Page_CDG/div_Wrong password' located by 'By.xpath: //body[@id='cdg']/div[4]/div/div[4]' not found
+
+2019-03-05 13:45:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Verify_Failed_Login' successfully
+
+2019-03-05 13:45:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-05 13:45:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 13:38:50 - [TEST_SUITE][PASSED] - Login: Test Cases/Common Test Cases/Login_NonValid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

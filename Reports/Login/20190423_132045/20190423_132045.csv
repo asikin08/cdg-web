@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 73.0.3683.103,,2019-04-23 13:20:49,2019-04-23 13:25:14,4m - 24.893s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_Customer,Chrome 73.0.3683.103,,2019-04-23 13:20:50,2019-04-23 13:23:11,2m - 21.349s,PASSED
+"comment(""Customer Login with valid account"")",Chrome 73.0.3683.103,,2019-04-23 13:20:50,2019-04-23 13:20:50,0.109s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 13:20:50,2019-04-23 13:21:13,22.855s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",Chrome 73.0.3683.103,,2019-04-23 13:21:13,2019-04-23 13:21:18,5.353s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/Verify Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-23 13:21:18,2019-04-23 13:22:40,1m - 21.421s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Email""), Input_Email)",Chrome 73.0.3683.103,,2019-04-23 13:22:40,2019-04-23 13:22:41,1.758s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Password""), Input_Password)",Chrome 73.0.3683.103,,2019-04-23 13:22:41,2019-04-23 13:22:42,0.134s,PASSED
+"click(findTestObject(""Page_CDG/button_Login""))",Chrome 73.0.3683.103,,2019-04-23 13:22:42,2019-04-23 13:22:42,0.231s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-23 13:22:42,2019-04-23 13:22:50,8.005s,PASSED
+"if (verifyTextPresent(""Add Product"", false, OPTIONAL))",Chrome 73.0.3683.103,,2019-04-23 13:22:50,2019-04-23 13:22:50,0.186s,PASSED
+else,Chrome 73.0.3683.103,,2019-04-23 13:22:50,2019-04-23 13:23:09,19.041s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-23 13:23:09,2019-04-23 13:23:11,1.847s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_Customer,Chrome 73.0.3683.103,,2019-04-23 13:23:11,2019-04-23 13:24:10,59.205s,PASSED
+"comment(""Customer Login with valid account"")",Chrome 73.0.3683.103,,2019-04-23 13:23:11,2019-04-23 13:23:11,0.000s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 13:23:11,2019-04-23 13:23:20,9.263s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",Chrome 73.0.3683.103,,2019-04-23 13:23:20,2019-04-23 13:23:24,3.406s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/Verify Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-23 13:23:24,2019-04-23 13:23:54,30.730s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Email""), Input_Email)",Chrome 73.0.3683.103,,2019-04-23 13:23:54,2019-04-23 13:23:56,1.357s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Password""), Input_Password)",Chrome 73.0.3683.103,,2019-04-23 13:23:56,2019-04-23 13:23:56,0.124s,PASSED
+"click(findTestObject(""Page_CDG/button_Login""))",Chrome 73.0.3683.103,,2019-04-23 13:23:56,2019-04-23 13:23:56,0.203s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-23 13:23:56,2019-04-23 13:24:04,8.004s,PASSED
+"if (verifyTextPresent(""Add Product"", false, OPTIONAL))",Chrome 73.0.3683.103,,2019-04-23 13:24:04,2019-04-23 13:24:09,4.623s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-23 13:24:09,2019-04-23 13:24:10,1.375s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_Customer,Chrome 73.0.3683.103,,2019-04-23 13:24:10,2019-04-23 13:25:14,1m - 3.478s,PASSED
+"comment(""Customer Login with valid account"")",Chrome 73.0.3683.103,,2019-04-23 13:24:10,2019-04-23 13:24:10,0.000s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 13:24:10,2019-04-23 13:24:17,6.306s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",Chrome 73.0.3683.103,,2019-04-23 13:24:17,2019-04-23 13:24:20,2.935s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/Verify Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-23 13:24:20,2019-04-23 13:24:46,25.895s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Email""), Input_Email)",Chrome 73.0.3683.103,,2019-04-23 13:24:46,2019-04-23 13:24:46,0.312s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Password""), Input_Password)",Chrome 73.0.3683.103,,2019-04-23 13:24:46,2019-04-23 13:24:46,0.148s,PASSED
+"click(findTestObject(""Page_CDG/button_Login""))",Chrome 73.0.3683.103,,2019-04-23 13:24:46,2019-04-23 13:24:46,0.090s,PASSED
+delay(8),Chrome 73.0.3683.103,,2019-04-23 13:24:46,2019-04-23 13:24:54,8.001s,PASSED
+"if (verifyTextPresent(""Add Product"", false, OPTIONAL))",Chrome 73.0.3683.103,,2019-04-23 13:24:54,2019-04-23 13:24:54,0.068s,PASSED
+else,Chrome 73.0.3683.103,,2019-04-23 13:24:54,2019-04-23 13:25:13,18.866s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-23 13:25:13,2019-04-23 13:25:14,0.722s,PASSED

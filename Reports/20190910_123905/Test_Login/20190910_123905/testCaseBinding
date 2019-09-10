@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login/TestCase_Login - Iteration 1","testCaseId":"Test Cases/Login/TestCase_Login","bindedValues":{"Input_Email":"\u0027cdgadept@gmail.com\u0027","Input_Password":"\u0027asdfghjkl\u0027"}}
+{"testCaseName":"Test Cases/Login/TestCase_Login - Iteration 2","testCaseId":"Test Cases/Login/TestCase_Login","bindedValues":{"Input_Email":"\u0027cdgadept@gmail.com\u0027","Input_Password":"\u0027123466\u0027"}}

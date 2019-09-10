@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ticket Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3f46dee-9f14-4a0c-b233-29ddc28b8539</testCaseGuid>
+   <variable>
+      <defaultValue>'cdgcustomer1@gmail.com'</defaultValue>
+      <description></description>
+      <id>2c89ac56-997f-4633-b72b-8994fca1cd35</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description></description>
+      <id>2a717bfe-f228-48de-b9fa-142bebbb4f17</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

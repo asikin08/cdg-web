@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 72.0.3626.119,,2019-03-05 10:57:02,2019-03-05 11:05:10,8m - 8.610s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_valid,Chrome 72.0.3626.119,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",2019-03-05 10:57:02,2019-03-05 11:00:55,3m - 52.968s,PASSED
+"comment(""Customer Login with valid account"")",Chrome 72.0.3626.119,,2019-03-05 10:57:03,2019-03-05 10:57:04,0.413s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-05 10:57:04,2019-03-05 10:59:00,1m - 55.916s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",Chrome 72.0.3626.119,,2019-03-05 10:59:00,2019-03-05 11:00:00,59.960s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/Verify Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-05 11:00:00,2019-03-05 11:00:48,48.049s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Email""), findTestData(""Login_Field"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-03-05 11:00:48,2019-03-05 11:00:49,0.920s,PASSED
+"setText(findTestObject(""Page_CDG/input_Password""), findTestData(""Login_Field"").getValue(2, 1))",Chrome 72.0.3626.119,,2019-03-05 11:00:49,2019-03-05 11:00:49,0.141s,PASSED
+"click(findTestObject(""Page_CDG/button_Login""))",Chrome 72.0.3626.119,,2019-03-05 11:00:49,2019-03-05 11:00:49,0.176s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/TC1_Verify Successful Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-05 11:00:49,2019-03-05 11:00:54,4.587s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,,2019-03-05 11:00:54,2019-03-05 11:00:55,1.837s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_valid,Chrome 72.0.3626.119,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",2019-03-05 11:00:55,2019-03-05 11:02:32,1m - 36.418s,PASSED
+"comment(""Customer Login with valid account"")",Chrome 72.0.3626.119,,2019-03-05 11:00:55,2019-03-05 11:00:55,0.003s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-05 11:00:55,2019-03-05 11:01:06,10.805s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",Chrome 72.0.3626.119,,2019-03-05 11:01:06,2019-03-05 11:01:12,5.244s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/Verify Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-05 11:01:12,2019-03-05 11:02:20,1m - 8.803s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Email""), findTestData(""Login_Field"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-03-05 11:02:20,2019-03-05 11:02:21,0.709s,PASSED
+"setText(findTestObject(""Page_CDG/input_Password""), findTestData(""Login_Field"").getValue(2, 1))",Chrome 72.0.3626.119,,2019-03-05 11:02:21,2019-03-05 11:02:21,0.116s,PASSED
+"click(findTestObject(""Page_CDG/button_Login""))",Chrome 72.0.3626.119,,2019-03-05 11:02:21,2019-03-05 11:02:21,0.093s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/TC1_Verify Successful Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-05 11:02:21,2019-03-05 11:02:30,8.826s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,,2019-03-05 11:02:30,2019-03-05 11:02:32,1.700s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_valid,Chrome 72.0.3626.119,"Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",2019-03-05 11:02:32,2019-03-05 11:05:08,2m - 36.346s,PASSED
+"comment(""Customer Login with valid account"")",Chrome 72.0.3626.119,,2019-03-05 11:02:32,2019-03-05 11:02:32,0.004s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-05 11:02:32,2019-03-05 11:02:43,11.018s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",Chrome 72.0.3626.119,,2019-03-05 11:02:43,2019-03-05 11:02:53,10.186s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/Verify Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-05 11:02:53,2019-03-05 11:03:31,38.066s,PASSED
+"setText(findTestObject(""Page_CDG/Input_Email""), findTestData(""Login_Field"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-03-05 11:03:31,2019-03-05 11:03:36,4.894s,PASSED
+"setText(findTestObject(""Page_CDG/input_Password""), findTestData(""Login_Field"").getValue(2, 1))",Chrome 72.0.3626.119,,2019-03-05 11:03:36,2019-03-05 11:03:36,0.122s,PASSED
+"click(findTestObject(""Page_CDG/button_Login""))",Chrome 72.0.3626.119,,2019-03-05 11:03:36,2019-03-05 11:03:39,2.601s,PASSED
+"callTestCase(findTestCase(""Main Test Cases/TC1_Verify Successful Login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-05 11:03:39,2019-03-05 11:05:07,1m - 27.722s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,,2019-03-05 11:05:07,2019-03-05 11:05:08,1.670s,PASSED

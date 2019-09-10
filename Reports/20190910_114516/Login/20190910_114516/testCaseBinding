@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login/Login Customer - Iteration 1","testCaseId":"Test Cases/Login/Login Customer","bindedValues":{"Input_Email":"\u0027asikinaul@gmail.com\u0027","Input_Password":"\u002712345\u0027"}}
+{"testCaseName":"Test Cases/Login/Login Customer - Iteration 2","testCaseId":"Test Cases/Login/Login Customer","bindedValues":{"Input_Email":"\u0027farida@adeptforms.com\u0027","Input_Password":"\u002712345\u0027"}}
+{"testCaseName":"Test Cases/Login/Login Customer - Iteration 3","testCaseId":"Test Cases/Login/Login Customer","bindedValues":{"Input_Email":"\u0027dhiyaulasikinaul@gmail.com\u0027","Input_Password":"\u0027asikin01\u0027"}}

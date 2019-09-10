@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2019-04-23 13:19:41,2019-04-23 13:19:47,6.161s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_Customer,,,2019-04-23 13:19:41,2019-04-23 13:19:46,4.967s,FAILED
+"comment(""Customer Login with valid account"")",,,2019-04-23 13:19:42,2019-04-23 13:19:42,0.232s,PASSED
+"openBrowser("""")",,,2019-04-23 13:19:42,2019-04-23 13:19:46,4.162s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-04-23 13:19:46,2019-04-23 13:19:46,0.077s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_Customer,,,2019-04-23 13:19:46,2019-04-23 13:19:46,0.217s,FAILED
+"comment(""Customer Login with valid account"")",,,2019-04-23 13:19:46,2019-04-23 13:19:46,0.000s,PASSED
+"openBrowser("""")",,,2019-04-23 13:19:46,2019-04-23 13:19:46,0.156s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-04-23 13:19:46,2019-04-23 13:19:46,0.024s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/Login_Customer,,,2019-04-23 13:19:46,2019-04-23 13:19:47,0.174s,FAILED
+"comment(""Customer Login with valid account"")",,,2019-04-23 13:19:46,2019-04-23 13:19:46,0.000s,PASSED
+"openBrowser("""")",,,2019-04-23 13:19:46,2019-04-23 13:19:47,0.126s,PASSED
+"navigateToUrl(""https://testing.adeptforms.com/module/cdg/customer/session/login"")",,,2019-04-23 13:19:47,2019-04-23 13:19:47,0.025s,FAILED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2019-03-05 10:29:10,2019-03-05 10:29:13,3.351s,PASSED
+,,,,,,
+Test Cases/Common Test Cases/Login_NonValid,,,2019-03-05 10:29:11,2019-03-05 10:29:12,0.605s,PASSED
+return null,,,2019-03-05 10:29:12,2019-03-05 10:29:12,0.001s,PASSED

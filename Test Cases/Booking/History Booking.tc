@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>History Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1beaf1e-e568-41bb-a388-2ace4a4f29ca</testCaseGuid>
+   <variable>
+      <defaultValue>'cdgcustomer1@gmail.com'</defaultValue>
+      <description></description>
+      <id>918cc1c8-4fdd-461e-a7e4-3bf06e7e310f</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description></description>
+      <id>abfaa0dd-bc21-4f74-bace-2a3cbcd801df</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

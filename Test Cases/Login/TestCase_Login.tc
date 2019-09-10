@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase_Login</name>
+   <tag></tag>
+   <comment>Customer Login with valid account</comment>
+   <testCaseGuid>eba57c48-18a4-411d-860c-980759c5efe1</testCaseGuid>
+   <variable>
+      <defaultValue>'Email'</defaultValue>
+      <description></description>
+      <id>f7d89cf5-fe83-492d-80b2-370ae3d8ed37</id>
+      <masked>false</masked>
+      <name>Input_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password'</defaultValue>
+      <description></description>
+      <id>0054a483-f5e9-4a7a-b51c-b7d8c774ac20</id>
+      <masked>false</masked>
+      <name>Input_Password</name>
+   </variable>
+</TestCaseEntity>
