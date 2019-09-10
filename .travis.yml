@@ -18,6 +18,5 @@ jobs:
       name: "Run Test and report"
       script: 
         - docker pull katalonstudio/katalon
-        - docker run -t --rm katalonstudio/katalon ls /opt/katalonstudio
-        - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon ./opt/katalonstudio/katalon -noSplash  -retry=0 -testSuitePath="Test Suites/Test_Login" -executionProfile="default" -browserType="Chrome"
-        
+        - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh  -retry=0 -testSuitePath="Test Suites/Test_Login" -statusDelay=15 -browserType="Chrome"
+
