@@ -19,4 +19,5 @@ jobs:
       script: 
         - docker pull katalonstudio/katalon
         - docker run -t --rm katalonstudio/katalon ls /opt/katalonstudio
-        - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon ./opt/katalonstudio/katalon -noSplash  -runMode=console -retry=0  -testSuitePath="Test Suites/Test Integration/Test_Login" -executionProfile="default" -browserType="Web Service" -projectPath="/katalon/katalon/source/API Testing.prj"
+        - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon ./opt/katalonstudio/katalon -noSplash  -retry=0 -testSuitePath="Test Suites/Test_Login" -executionProfile="default" -browserType="Chrome"
+        
